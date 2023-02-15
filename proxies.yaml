@@ -54,7 +54,7 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 85d220f0-a776-11ed-b939-205c6d5f5d78
+    uuid: 7a6f9380-ad51-11ed-b030-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -65,6 +65,23 @@ proxies:
       path: /fastssh
       headers:
         Host: sg-1.0rd.net
+    udp: true
+
+  - name: "[VMess] Singapore Melbi²"
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 1a898670-ad52-11ed-b234-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    # servername: ""
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sg-4.0rd.net
     udp: true
 
   - name: "[VMess] Singapore Melbi²"
@@ -118,11 +135,28 @@ proxies:
         Host: sg-2.0rd.net
     udp: true
 
+  - name: "[VMess] Singapore OVH³"
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 274961c0-ad51-11ed-b133-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    # servername: ""
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sg-10.0rd.net
+    udp: true
+
   - name: "[VMess] Indonesia Herza"
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 7cd953e0-a74e-11ed-b932-205c6d5f5d78
+    uuid: d3572760-ad51-11ed-b434-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
