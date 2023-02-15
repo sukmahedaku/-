@@ -67,7 +67,7 @@ proxies:
         Host: sg-1.0rd.net
     udp: true
 
-  - name: "[VMess] Singapore Melbi²"
+  - name: "[VMess] Singapore Melbi¹"
     server: 104.26.7.171
     port: 80
     type: vmess
